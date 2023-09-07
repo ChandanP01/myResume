@@ -37,8 +37,12 @@ a {
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: var(--text-color);
+	cursor: pointer;
 }
 
+.description:hover{
+	color: var(--primary-color);
+}
 .title {
 	color: var(--primary-color);
 	font-weight: 700;
