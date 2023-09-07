@@ -40,9 +40,10 @@ a {
 	cursor: pointer;
 }
 
-.description:hover{
+.description:hover {
 	color: var(--primary-color);
 }
+
 .title {
 	color: var(--primary-color);
 	font-weight: 700;
