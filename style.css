@@ -75,7 +75,6 @@ a {
 	font-weight: 400;
 }
 
-/* layouts */
 .container {
 	max-width: 1000px;
 	width: 90%;
@@ -132,7 +131,7 @@ a {
 	}
 }
 
-/* profile */
+
 .profile_container {
 	display: flex;
 	gap: 2rem;
@@ -176,6 +175,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	background-color: var(--primary-color);
+	transition: box-shadow 0.5s;
 }
 
 .downloadBtn:hover {
@@ -189,24 +189,20 @@ a {
 	}
 }
 
-/* Expertise */
 .skills_list {
 	margin-top: 1rem;
 	margin-left: 2rem;
 	line-height: 2;
 }
 
-/* eduction */
 .edu_item {
 	margin-top: 2rem;
 }
 
-/* exp */
 .exp_item {
 	margin-top: 2rem;
 }
 
-/* Interests */
 .interest_items {
 	margin-top: 2rem;
 	display: flex;
@@ -229,7 +225,6 @@ a {
 	font-size: 2.5rem;
 }
 
-/* socials */
 .social_items {
 	margin-top: 2rem;
 }
