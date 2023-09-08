@@ -42,7 +42,7 @@ a {
 
 .description a {
 	color: var(--text-color);
-	margin-left: 6px;
+	margin-left: 7px;
 }
 
 .description a:hover {
