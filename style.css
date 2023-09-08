@@ -34,13 +34,18 @@ a {
 
 .description {
 	margin-top: 1rem;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 	color: var(--text-color);
 	cursor: pointer;
 }
 
-.description:hover {
+.description a {
+	color: var(--text-color);
+	margin-left: 6px;
+}
+
+.description a:hover {
 	color: var(--primary-color);
 }
 
@@ -161,14 +166,21 @@ a {
 }
 
 .downloadBtn {
+	height: 50px;
+	width: 150px;
+	border-radius: 8px;
 	display: block;
-	text-decoration: underline;
 	font-size: 1.6rem;
-	margin-top: 1rem;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
 }
 
 .downloadBtn:hover {
-	color: var(--primary-color);
+	box-shadow: 1px 1px 10px #ffa500;
+	color: #000;
 }
 
 @media only screen and (max-width: 768px) {
@@ -209,7 +221,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 0.5rem;
+	gap: 1rem;
 	color: var(--text-color);
 }
 
@@ -238,6 +250,7 @@ a {
 
 .social_item i {
 	font-size: 2rem;
+	margin-right: 6px;
 }
 
 hr {
